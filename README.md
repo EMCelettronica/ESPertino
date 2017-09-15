@@ -34,11 +34,13 @@ Most of the framework is implemented. Most noticable is the missing analogWrite.
   ```bash
   mkdir -p ~/Documents/Arduino/hardware/espressif && \
   cd ~/Documents/Arduino/hardware/espressif && \
-  git clone https://github.com/espressif/arduino-esp32.git esp32 && \
+  git clone https://github.com/EMCelettronica/ESPertino.git esp32 && \
   cd esp32/tools/ && \
   python get.py
   ```
 - Restart Arduino IDE
+
+This will install only the ESPertino board, not the whole esp32 set.
 
 #### Instructions for Debian/Ubuntu Linux
 - Install latest Arduino IDE from [arduino.cc](https://www.arduino.cc/en/Main/Software)
@@ -49,11 +51,13 @@ Most of the framework is implemented. Most noticable is the missing analogWrite.
   sudo apt-get install git && \
   mkdir -p ~/Arduino/hardware/espressif && \
   cd ~/Arduino/hardware/espressif && \
-  git clone https://github.com/espressif/arduino-esp32.git esp32 && \
+  git clone https://github.com/EMCelettronica/ESPertino.git esp32 && \
   cd esp32/tools/ && \
   python get.py
   ```
 - Restart Arduino IDE
+
+This will install only the ESPertino board, not the whole esp32 set.
 
 #### Decoding exceptions
 
